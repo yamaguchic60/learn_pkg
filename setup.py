@@ -17,9 +17,11 @@ setup(
     maintainer_email='tkmcbo@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'imgproc_opencv_ros = learn_pkg.imgproc_opencv_ros:main',
+            'image_publisher = learn_pkg.image_publisher:main',
+
         ],
     },
 )
