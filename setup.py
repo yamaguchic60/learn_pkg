@@ -19,8 +19,9 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
-            'imgproc_opencv_ros = learn_pkg.imgproc_opencv_ros:main',
+            'gray_publisher = learn_pkg.gray_publisher:main',
             'image_publisher = learn_pkg.image_publisher:main',
+            'edge_node = learn_pkg.edge_node:main',
 
         ],
     },
